@@ -15,4 +15,8 @@ import Foundation
      let apiKey: String = "5c8738385b7df0af7444bc5fbf4d5b14"
      typealias DownloadComplete = () -> ()
      var fullApiUrl: String = "\(api)\(latitude)35\(longitude)139\(appId)\(apiKey)"
+/*
+//var forecastApi = "http://http://api.openweathermap.org/data/2.5/forecast/daily?lat=35&lon=139&cnt=10&appid=5c8738385b7df0af7444bc5fbf4d5b14"
+*/
+var forecastApi = "http://api.openweathermap.org/data/2.5/forecast?lat=35&lon=139&cnt=6&appid=5c8738385b7df0af7444bc5fbf4d5b14"
     

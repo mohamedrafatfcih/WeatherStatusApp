@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		6811AE73AD5A877E187F76D5 /* Pods_WetherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F064AA1B28E4D814FEE6CD1 /* Pods_WetherApp.framework */; };
+		781C4DB01F91CD7D00915FF0 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781C4DAF1F91CD7D00915FF0 /* WeatherCell.swift */; };
 		7840368F1F83547400A7F4EF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7840368E1F83547400A7F4EF /* Constants.swift */; };
 		784036911F835D6800A7F4EF /* CurrentWether.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784036901F835D6800A7F4EF /* CurrentWether.swift */; };
+		789E69901F873D920009D699 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E698F1F873D920009D699 /* Forecast.swift */; };
 		78B6D5A51F809F12002F3B4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B6D5A41F809F12002F3B4A /* AppDelegate.swift */; };
 		78B6D5A71F809F12002F3B4A /* WetherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B6D5A61F809F12002F3B4A /* WetherVC.swift */; };
 		78B6D5AA1F809F12002F3B4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B6D5A81F809F12002F3B4A /* Main.storyboard */; };
@@ -20,8 +22,10 @@
 /* Begin PBXFileReference section */
 		0F064AA1B28E4D814FEE6CD1 /* Pods_WetherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WetherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		245D1E03B217A95E000C73BB /* Pods-WetherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WetherApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WetherApp/Pods-WetherApp.debug.xcconfig"; sourceTree = "<group>"; };
+		781C4DAF1F91CD7D00915FF0 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 		7840368E1F83547400A7F4EF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		784036901F835D6800A7F4EF /* CurrentWether.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWether.swift; sourceTree = "<group>"; };
+		789E698F1F873D920009D699 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		78B6D5A11F809F12002F3B4A /* WetherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WetherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B6D5A41F809F12002F3B4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78B6D5A61F809F12002F3B4A /* WetherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WetherVC.swift; sourceTree = "<group>"; };
@@ -64,6 +68,7 @@
 		7840368A1F8353CD00A7F4EF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				781C4DAF1F91CD7D00915FF0 /* WeatherCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -73,6 +78,7 @@
 			children = (
 				7840368E1F83547400A7F4EF /* Constants.swift */,
 				784036901F835D6800A7F4EF /* CurrentWether.swift */,
+				789E698F1F873D920009D699 /* Forecast.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -249,8 +255,10 @@
 			files = (
 				784036911F835D6800A7F4EF /* CurrentWether.swift in Sources */,
 				78B6D5A71F809F12002F3B4A /* WetherVC.swift in Sources */,
+				781C4DB01F91CD7D00915FF0 /* WeatherCell.swift in Sources */,
 				78B6D5A51F809F12002F3B4A /* AppDelegate.swift in Sources */,
 				7840368F1F83547400A7F4EF /* Constants.swift in Sources */,
+				789E69901F873D920009D699 /* Forecast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
